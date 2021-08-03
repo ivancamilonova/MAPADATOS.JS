@@ -22,5 +22,5 @@ app.use( (req,res,next)=>{
 })
 
 app.listen(app.get('port'), function(){
-	console.log(`Listening at http://${host}:${app.get('port')}`);
+	console.log(`Listening at https://${host}:${app.get('port')}`);
 });
